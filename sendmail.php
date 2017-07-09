@@ -3,7 +3,7 @@
     session_cache_limiter( 'nocache' );
     header( 'Expires: ' . gmdate( 'r', 0 ) );
     header( 'Content-type: application/json' );
-    $to         = 'atulmodi.am@gmail.com';  // put your email here
+    $to         = 'atulmodi.am@gmail.com';  // put your email here;wdk;
     $email_template = 'simple.html';
     $subject    = 'atulmodi.me';
     $email       = strip_tags($_POST['Email']);
